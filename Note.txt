@@ -1,0 +1,29 @@
+Hi I'm Manikanta.
+
+FrontEnd:-
+  1 npm install
+  2 ng serve
+  
+BackEnd:- 
+    backend setup
+    1 node database.js
+    
+    Main code 
+    1 node app.js
+    
+Browser:-
+    1 open chrome
+    2 https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en   (add to chrome).
+    3 localhost:4200
+    
+Testing for post:- 
+    1  open terminal:-  sudo psql postgres://fchhltfc:vcyFNRGGWwzAIXdQPiTMXcEXz5nYAYLV@satao.db.elephantsql.com:5432/fchhltfc
+    2. select * from test_posts;
+    3. display empty schema.
+    4. in chrome brower Click POSTS text (wait for alert message)
+    5. open terminal:-  sudo psql postgres://fchhltfc:vcyFNRGGWwzAIXdQPiTMXcEXz5nYAYLV@satao.db.elephantsql.com:5432/fchhltfc
+    6. select * from test_posts;
+    7. display post data;
+    
+    
+ Testing for comments, albums, photos, todos and users follow steps from 1 to 7.
