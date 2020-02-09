@@ -1,0 +1,14 @@
+$topnav-background-color: #2d4561;
+
+.navbar {
+    background-color: $topnav-background-color;
+    padding: 10px;
+    display: flex;
+}
+
+
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    flex: 1;
+}
